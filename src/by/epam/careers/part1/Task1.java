@@ -11,7 +11,8 @@ public class Task1 {
         System.out.println();
         snakeCase(arr);
     }
-    private static void snakeCase(String[] arr) {
+    
+    public static void snakeCase(String[] arr) {
         System.out.println("snake_case: ");
         for (int i = 0; i < arr.length; i++) {
             StringBuilder s = new StringBuilder();
